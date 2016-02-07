@@ -3,7 +3,7 @@
 #
 #----------------------------------------------------------------------------------------------------
 
-FROM java7
+FROM java:7
 
 #Create the target directory
 mkdir -p /opt/drill 
