@@ -18,4 +18,4 @@ ENV DRILL_HEAP 256B
 ENV DRILL_MAX_HEAP 512MB
 
 #Start Server
-ENTRYPOINT /opt/drill/bin/sqlline  -u "jdbc:drill:zk=local"
+CMD /opt/drill/bin/sqlline  -u "jdbc:drill:zk=local"
