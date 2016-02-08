@@ -21,4 +21,4 @@ ENV DRILL_HEAP 256B
 ENV DRILL_MAX_HEAP 512MB
 
 #Start Server
-CMD ['/opt/drill/bin/drill-embedded']
+CMD ['/opt/drill/apache-drill-1.4.0/bin/drill-embedded']
