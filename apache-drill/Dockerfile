@@ -16,5 +16,9 @@ RUN curl --insecure -o apache-drill-1.4.0.tar.gz https://wpcp-artifactory.corp.a
 #Expose Web Console and ODBC/JDBC Ports	
 EXPOSE 8047 31010
 
+ENV DRILL_MAX_DIRECT_MEMORY 1GB
+ENV DRILL_HEAP 256B
+ENV DRILL_MAX_HEAP 512MB
+
 #Start Server
 CMD ['/opt/drill/bin/drill-embedded']
