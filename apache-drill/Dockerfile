@@ -6,7 +6,7 @@
 FROM java
 
 #Create the target directory
-mkdir -p /opt/drill 
+RUN mkdir -p /opt/drill 
 
 
 #Retrieve Apache Drill 
