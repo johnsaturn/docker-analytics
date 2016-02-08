@@ -17,4 +17,4 @@ RUN curl --insecure -o apache-drill-1.4.0.tar.gz https://wpcp-artifactory.corp.a
 EXPOSE 8047 31010
 
 #Start Server
-CMD ['/opt/drill/bin/sqlline']
+CMD ['/opt/drill/bin/drill-embedded']
