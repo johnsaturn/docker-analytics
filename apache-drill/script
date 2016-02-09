@@ -1,3 +1,4 @@
 #!/bin/bash
 /opt/drill/bin/drill-embedded
-tail -f /opt/drill/
+/opt/drill/bin/sqlline
+tail -f /opt/drill/sqlline.log
