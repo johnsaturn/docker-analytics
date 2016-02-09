@@ -2,4 +2,3 @@
 ls /opt/drill
 /opt/drill/bin/drill-embedded
 /opt/drill/bin/sqlline
-tail -f /opt/drill/log/sqlline.log
