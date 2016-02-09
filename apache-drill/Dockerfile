@@ -11,7 +11,7 @@ RUN curl --insecure -o apache-drill-1.4.0.tar.gz https://wpcp-artifactory.corp.a
 	mv apache-drill-1.4.0 /opt/drill
 
 ADD script /opt/drill/script
-RUN CHMOD 700 /opt/drill/script
+RUN chmod 700 /opt/drill/script
 	
 #Expose Web Console and ODBC/JDBC Ports
 EXPOSE 8047 31010
