@@ -34,4 +34,4 @@ RUN  cp /opt/pentaho/data-integration/run.sh /opt/pentaho/data-integration/run2.
 
 EXPOSE 8181
 
-CMD ["./opt/pentaho/data-integration/run2.sh"]
+CMD ["/opt/pentaho/data-integration/run2.sh"]
