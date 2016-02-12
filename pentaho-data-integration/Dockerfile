@@ -33,4 +33,4 @@ WORKDIR /opt/pentaho/data-integration
 
 EXPOSE 8181
 
-CMD ["./carte.sh","slave_dyn.xml"]
+CMD ["./carte.sh"]
