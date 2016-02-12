@@ -30,7 +30,7 @@ COPY slave_dyn.xml /opt/pentaho/data-integration/
 
 
 WORKDIR /opt/pentaho/data-integration
-RUN chmod +x /opt/pentaho/data-integration/run.sh; chmod +x /opt/pentaho/data-integration/custom_script.sh;  chmod +x /opt/pentaho/data-integration/carte.sh;
+RUN sudo chmod 777 /opt/pentaho/data-integration/run.sh; sudo chmod 777 /opt/pentaho/data-integration/custom_script.sh;  sudo chmod 777 /opt/pentaho/data-integration/carte.sh;
 
 EXPOSE 8181
 
