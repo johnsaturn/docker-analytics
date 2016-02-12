@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "Running Carte Server"
 
 HOSTNAME=$(`echo hostname`)
 

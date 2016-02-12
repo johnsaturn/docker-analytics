@@ -30,8 +30,8 @@ COPY slave_dyn.xml /opt/pentaho/data-integration/
 
 
 WORKDIR /opt/pentaho/data-integration
-RUN  touch run2.sh; chmod 777 run2.sh; cat run.sh > run2.sh;
+RUN  cp /opt/pentaho/data-integration/run.sh /opt/pentaho/data-integration/run2.sh; chmod 777 /opt/pentaho/data-integration/run2.sh;
 
 EXPOSE 8181
 
-CMD ["./run2.sh"]
+CMD ["./opt/pentaho/data-integration/run2.sh"]
