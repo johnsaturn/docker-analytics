@@ -28,8 +28,9 @@ RUN /usr/bin/wget --progress=dot:giga http://downloads.sourceforge.net/project/p
 COPY scripts/ /opt/pentaho/data-integration/
 COPY slave_dyn.xml /opt/pentaho/data-integration/
 
-
 WORKDIR /opt/pentaho/data-integration
+
+RUN mkdir repository; /opt/pentaho/data-integration/repositories.x /opt/pentaho/data-integration/repositories.xml
 
 EXPOSE 8181
 
