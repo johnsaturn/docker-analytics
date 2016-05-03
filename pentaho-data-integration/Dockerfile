@@ -30,8 +30,6 @@ COPY slave_dyn.xml /opt/pentaho/data-integration/
 
 WORKDIR /opt/pentaho/data-integration
 
-RUN mkdir repository
-
 EXPOSE 8181
 
 CMD ["./carte.sh", "0.0.0.0", "8181"]
