@@ -32,4 +32,4 @@ WORKDIR /opt/pentaho/data-integration
 
 EXPOSE 8181
 
-CMD ["./carte.sh", "0.0.0.0", "8181"]
+CMD ["/opt/pentaho/data-integration/carte.sh", "0.0.0.0", "8181"]
